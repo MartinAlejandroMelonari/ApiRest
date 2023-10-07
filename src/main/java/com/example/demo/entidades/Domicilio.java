@@ -22,7 +22,6 @@ public class Domicilio extends Base{
     @Column(name = "numero")
     private int numero;
 
-    //el optional = false dice q la localidad no puede ser null
     @ManyToOne(optional = false)
     @JoinColumn(name = "fk_localidad")
     private Localidad localidad;

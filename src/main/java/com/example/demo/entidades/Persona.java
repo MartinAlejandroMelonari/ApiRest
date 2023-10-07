@@ -31,7 +31,6 @@ public class Persona extends Base {
     @JoinColumn(name = "fk_domicilio")
     private Domicilio domicilio;
 
-    //el orphanremoval basicamente es la composicion, si eliminamos la persona tambien eliminamos el libro que le pertenece a esa persona
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinTable(
             name = "PersonaLibro",

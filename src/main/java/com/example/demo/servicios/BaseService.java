@@ -1,7 +1,5 @@
 package com.example.demo.servicios;
 
-//en esta clase vamos a declarar todos los metodos principales q necesitamos, con las operaciones, get, put, delete y post
-
 import com.example.demo.entidades.Base;
 import org.yaml.snakeyaml.events.Event;
 
