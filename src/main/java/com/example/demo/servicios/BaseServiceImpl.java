@@ -1,10 +1,8 @@
 package com.example.demo.servicios;
 
 import com.example.demo.entidades.Base;
-import com.example.demo.entidades.Persona;
 import com.example.demo.repositorios.BaseRepositorio;
 import jakarta.transaction.Transactional;
-import org.yaml.snakeyaml.events.Event;
 
 import java.io.Serializable;
 import java.util.List;

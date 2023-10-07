@@ -5,7 +5,6 @@ import com.example.demo.servicios.PersonaServiceImpl;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-//CrossOrigin nos permite dar acceso a nuestra api desde distintos origenes (clientes)
 @CrossOrigin(origins = "*")
 @RequestMapping(path = "api/v1/personas")
 public class PersonaController extends BaseControllerImpl<Persona, PersonaServiceImpl>{

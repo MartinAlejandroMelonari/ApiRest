@@ -1,8 +1,9 @@
 package com.example.demo.repositorios;
 
-import com.example.demo.entidades.Localidad;
+import com.example.demo.entidades.Domicilio;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-public interface LocalidadRepositorio extends JpaRepository<Localidad, Long> {
+@Repository
+public interface DomicilioRepositorio extends JpaRepository<Domicilio, Long> {
 }

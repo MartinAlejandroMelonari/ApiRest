@@ -1,8 +1,9 @@
 package com.example.demo.repositorios;
 
-import com.example.demo.entidades.Localidad;
+import com.example.demo.entidades.Libro;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-public interface LocalidadRepositorio extends JpaRepository<Localidad, Long> {
+@Repository
+public interface LibroRepositorio extends JpaRepository<Libro, Long> {
 }
