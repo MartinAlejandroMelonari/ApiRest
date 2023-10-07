@@ -1,4 +1,4 @@
-ROM alpine:latest as build
+FROM alpine:latest as build
 
 RUN apk update
 RUN apk add openjdk17
